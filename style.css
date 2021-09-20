@@ -5,7 +5,7 @@ img{float:left; margin:10px; width:200px; height:100px}
 .nechet{background-color:#0A97B0}
 body{margin:0; background-color:#9399FF}
 nav{max-width:960px; background-color:#FF80B0; margin: 0 auto; margin-top:20px; padding:10px}
-nav.nav2{background-color:#FFC7C7}
+nav.nav2{background-color:#FFC7C7; margin-bottom:20px}
 .div1{max-width:960px; background-color:#FFC7C7; margin: 0 auto; margin-top:20px; padding:10px}
 .div2{max-width:960px; background-color:#FF80B0; margin: 0 auto; margin-top:20px; padding:10px}
 table {margin:auto;border: 1px solid black}
