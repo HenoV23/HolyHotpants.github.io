@@ -8,8 +8,8 @@ nav{max-width:960px; background-color:#FF80B0; margin: 0 auto; margin-top:20px; 
 nav.nav2{background-color:#FFC7C7; margin-bottom:20px}
 .div1{max-width:960px; background-color:#FFC7C7; margin: 0 auto; margin-top:20px; padding:10px}
 .div2{max-width:960px; background-color:#FF80B0; margin: 0 auto; margin-top:20px; padding:10px}
+.div3{text-align:center;max-width:960px; background-color:#FFC7C7; margin: 0 auto; margin-top:20px; padding:10px}
 table {margin:auto;border: 1px solid black}
 table td,table th{text-align:center;border: 1px solid black}
-.div1{max-width:960px; background-color:#FFC7C7; margin: 0 auto; margin-top:20px; padding:10px}
 footer{width:100%; background-color:#F7D695; margin:10px 0 0 0; padding:50px}
-div.div3{width:165px;background-color:#EE8972}
+div.div4{width:165px;background-color:#EE8972}
