@@ -9,7 +9,7 @@
 
    <header>
     <div >
-      <img src="https://c.tenor.com/S9BVMZq1Vq8AAAAC/duck-duck-dance.gif" alt="Описание картинки" /> 
+      <img id="img_header" src="https://c.tenor.com/S9BVMZq1Vq8AAAAC/duck-duck-dance.gif" alt="Описание картинки" /> 
       <div id="div_headertittle">Тестовый сайт 2</div>
     </div>
    </header>
@@ -29,36 +29,35 @@
 	<p id="Нумерованный_список"></p><a id="Гиперссылки"></a>
     <h2>Нумерованный список</h2>
     <ol>
-      <li><a href="http://www.kubsu.ru/" target="_blank">
-  Абсолютная гиперссылка на сайт КубГУ</a></li>
-      <li><a href="https://www.kubsu.ru/" target="_blank">
-  Абсолютная гиперссылка на сайт КубГУ в протоколе https</a></li>
-      <li><a href = "ftp://example.com/myfile.zip" target="_blank"> Ссылка на файл на сервере FTP без авторицации  </a> </li>
-      <li><a href = "ftp://user:password@example.com/myfile.zip" target="_blank"> Ссылка на файл на сервере FTP с авторизацией </a></li>
-      <li><a href = "https://ru.wikipedia.org/wiki/HTML#Структура_HTML-документа" target="_blank">Ссылка на фрагмент некоторого сайта </a></li>
-      <li><a href="#Форма">ссылка на фрагмент текущей страницы</a></li>
-      <li><a href ="https://yandex.ru/search/?text=КубГУ&lr=35" target="_blank">Ссылка с двумя параметрами в URL</a></li>
-      <li>Список ссылок основной навигации сайта:
+       <li><a href="http://www.kubsu.ru/" target="_blank">Абсолютная гиперссылка на сайт КубГУ</a></li>
+       <li><a href="https://www.kubsu.ru/" target="_blank">Абсолютная гиперссылка на сайт КубГУ в протоколе https</a></li>
+       <li><a href = "ftp://example.com/myfile.zip" target="_blank"> Ссылка на файл на сервере FTP без авторицации  </a> </li>
+       <li><a href = "ftp://user:password@example.com/myfile.zip" target="_blank"> Ссылка на файл на сервере FTP с авторизацией </a></li>
+       <li><a href = "https://ru.wikipedia.org/wiki/HTML#Структура_HTML-документа" target="_blank">Ссылка на фрагмент некоторого сайта </a></li>
+       <li><a href="#Форма">ссылка на фрагмент текущей страницы</a></li>
+       <li><a href ="https://yandex.ru/search/?text=КубГУ&lr=35" target="_blank">Ссылка с двумя параметрами в URL</a></li>
+       <li>Список ссылок основной навигации сайта:
 	<nav class="nav2">
 	 <ul>
 		<li><a href="#Нумерованный_список">Нумерованный список</a></li>
 		<li><a href="#Форма">Форма</a></li>
 	 </ul>
 	</nav></li>
-      <li><a>Ссылка без href</a></li>
-      <li><a href="">Ссылка с пустым href</a></li>
-      <li><a href="http://www.kubsu.ru/" rel="nofollow" target="_blank">Ссылка, по которой запрещен переход поискавикам(Яндексу)</a></li>
-      <li><a href="http://www.kubsu.ru/" target="_blank" rel="noindex">Cсылка, запрещенная для индексации поисковикам</a></li>
-      <li>Контекстная в тексте абзаца:<p> HTML — стандартизированный язык разметки документов для просмотра веб-страниц в <a href="https://ru.wikipedia.org/wiki/Браузер" target="_blank">браузере</a>. Веб-браузеры получают HTML документ от сервера по протоколам <a href="https://ru.wikipedia.org/wiki/HTTP" target="_blank">HTTP</a>/<a href="https://ru.wikipedia.org/wiki/HTTPS" target="_blank">HTTPS</a> или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора. </p> </li>
-      <li>Cсылка-изображение <p><a id="Kubsu" href="https://kubsu.ru/" target="_blank"><img alt = "Сайт КубГУ" src = "https://www.kubsu.ru/sites/default/files/news/logotip_s_kubgu_copy.jpg" height = "702" width = "673"> </a></p></li>
-      <li>Ссылки из прямоугольных и круглых областей картинки:
+       <li><a>Ссылка без href</a></li>
+       <li><a href="">Ссылка с пустым href</a></li>
+       <li><a href="http://www.kubsu.ru/" rel="nofollow" target="_blank">Ссылка, по которой запрещен переход поискавикам(Яндексу)</a></li>
+       <li><a href="http://www.kubsu.ru/" target="_blank" rel="noindex">Cсылка, запрещенная для индексации поисковикам</a></li>
+       <li>Контекстная в тексте абзаца:<p> HTML — стандартизированный язык разметки документов для просмотра веб-страниц в <a href="https://ru.wikipedia.org/wiki/Браузер" target="_blank">браузере</a>. Веб-браузеры получают HTML документ от сервера по протоколам <a href="https://ru.wikipedia.org/wiki/HTTP" target="_blank">HTTP</a>/<a href="https://ru.wikipedia.org/wiki/HTTPS" target="_blank">HTTPS</a> или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора. </p> </li>
+       <li>Cсылка-изображение: <p><a id="Kubsu" href="https://kubsu.ru/" target="_blank"><img alt = "Сайт КубГУ" src = "https://www.kubsu.ru/sites/default/files/news/logotip_s_kubgu_copy.jpg" height = "702" width = "673"> </a></p></li>
+       <li>Ссылки из прямоугольных и круглых областей картинки:
+		<p><img alt="Кот в горшке" src = "https://bygaga.com.ua/uploads/posts/1339881009_kartinki_privet_6257-9.jpeg" height = "650" width = "480" usemap = "#cat"></p>
 		<p><map name = "cat">
-			<area alt="Горшок" shape = "rect" coords = "51,294,413,615" href = "https://ru.wikipedia.org/wiki/Горшенёв,_Михаил_Юрьевич" title = "Горшок">
-			<area alt="Кот" shape = "poly" coords = "213,24,255,64,356,97,430,83,399,299,113,297,172,155" href = "https://krasnodog.ru/" title = "Приют для животных">
+			<area alt="Горшок" shape = "circle" coords = "239,485,160" href = "https://ru.wikipedia.org/wiki/Горшенёв,_Михаил_Юрьевич" title = "Горшок">
+			<area alt="Кот" shape = "rect" coords = "130,54,406,286" href = "https://krasnodog.ru/" title = "Приют для животных">
 		</map></p>
-		<p><img alt="Картинка" src = "https://bygaga.com.ua/uploads/posts/1339881009_kartinki_privet_6257-9.jpeg" height = "650" width = "480" usemap = "#cat"></p>
-	</li>
-	<li> <a href = "./example.html" > Относительная ссылка на страницу в текущем каталоге</a> </li>
+		
+        </li>
+        <li> <a href = "./example.html" > Относительная ссылка на страницу в текущем каталоге</a> </li>
 	<li> <a href = "./about/example.html" > Относительная ссылка на страницу в каталоге about </a> </li>
 	<li> <a href = "../example.html" > Относительная ссылка на страницу в каталоге уровнем выше текущего </a> </li>
 	<li> <a href = "../../example.com" > Относительная ссылка на страницу в каталоге двумя уровнями выше </a> </li>
