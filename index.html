@@ -1,54 +1,55 @@
 ﻿<!DOCTYPE html>
+
 <html>
-
   <head>
-    <title>Тестовый сайт</title>
+    <title>Тестовый сайт 2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
-
+ 
   <body>
 
-    <h1>Тестовый сайт с нумерованным списком гиперссылок и формой</h1>
-<p id="Нумерованный_список"></p>
+   <header>
+    <div >
+      <img src="https://c.tenor.com/S9BVMZq1Vq8AAAAC/duck-duck-dance.gif" alt="Описание картинки" /> 
+      <div id="div_headertittle">Тестовый сайт 2</div>
+    </div>
+   </header>
+
+   <main>
+    <div>
+     <nav>Меню сайта:
+	<li><a href="#Гиперссылки">Список гиперссылок</a> </li>
+	<li><a href="#Таблица">Таблица</a> </li>
+	<li><a href="#Форма">Форма</a></li>
+     </nav>
+    </div>
+
+    <div class="div1">
+	<p id="Нумерованный_список"></p><a id="Гиперссылки"></a>
     <h2>Нумерованный список</h2>
-
-
     <ol>
-
       <li><a href="http://www.kubsu.ru/" target="_blank">
-  абсолютная гиперссылка на сайт КубГУ</a></li>
-
+  Абсолютная гиперссылка на сайт КубГУ</a></li>
       <li><a href="https://www.kubsu.ru/" target="_blank">
-  абсолютная гиперссылка на сайт КубГУ в протоколе https</a></li>
-
+  Абсолютная гиперссылка на сайт КубГУ в протоколе https</a></li>
       <li><a href = "ftp://example.com/myfile.zip" target="_blank"> Ссылка на файл на сервере FTP без авторицации  </a> </li></li>
-
       <li><a href = "ftp://user:password@example.com/myfile.zip" target="_blank"> Ссылка на файл на сервере FTP с авторизацией </a></li>
-
       <li><a href = "https://ru.wikipedia.org/wiki/HTML#Структура_HTML-документа" target="_blank">Ссылка на фрагмент некоторого сайта </a></li>
       <li><a href="#Форма">ссылка на фрагмент текущей страницы</a></li>
-
-      <li><a href ="https://yandex.ru/search/?text=КубГУ&lr=35" target="_blank">Поиск в yandex</a></li>
-
-      <li>Список ссылок основной навигации сайта с подписями title:
-	<nav>
-	<ul>
+      <li><a href ="https://yandex.ru/search/?text=КубГУ&lr=35" target="_blank">Ссылка с двумя параметрами в URL</a></li>
+      <li>Список ссылок основной навигации сайта:
+	<nav class="nav2">
+	 <ul>
 		<li><a href="#Нумерованный_список">Нумерованный список</a></li>
 		<li><a href="#Форма">Форма</a></li>
-	</ul>
-	</nav>
+	 </ul>
+	</nav></li>
       <li><a>Ссылка без href</a></li>
-
       <li><a href="">Ссылка с пустым href</a></li>
-
       <li><a href="http://www.kubsu.ru/" rel="nofollow" target="_blank">Ссылка, по которой запрещен переход поискавикам(Яндексу)</a></li>
-
-      <li><noindex><a href="http://www.kubsu.ru/" target="_blank">Cсылка, запрещенная для индексации поисковикам</a><noindex></li>
-
+      <li><a href="http://www.kubsu.ru/" target="_blank" rel="noindex">Cсылка, запрещенная для индексации поисковикам</a></li>
       <li>Контекстная в тексте абзаца:<p> HTML — стандартизированный язык разметки документов для просмотра веб-страниц в <a href="https://ru.wikipedia.org/wiki/Браузер" target="_blank">браузере</a>. Веб-браузеры получают HTML документ от сервера по протоколам <a href="https://ru.wikipedia.org/wiki/HTTP" target="_blank">HTTP</a>/<a href="https://ru.wikipedia.org/wiki/HTTPS" target="_blank">HTTPS</a> или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора. </p> </li>
-
-      <li> Cсылка-изображение <p><a id="Kubsu" href="https://kubsu.ru/" target="_blank"><img alt = "Сайт КубГУ" src = "https://www.kubsu.ru/sites/default/files/news/logotip_s_kubgu_copy.jpg"
-height = "702" width = "673"> </a></p></li>
-
+      <li>Cсылка-изображение <p><a id="Kubsu" href="https://kubsu.ru/" target="_blank"><img alt = "Сайт КубГУ" src = "https://www.kubsu.ru/sites/default/files/news/logotip_s_kubgu_copy.jpg" height = "702" width = "673"> </a></p></li>
       <li>Ссылки из прямоугольных и круглых областей картинки:
 		<p><map name = "cat">
 			<area alt="Горшок" shape = "rect" coords = "51,294,413,615" href = "https://ru.wikipedia.org/wiki/Горшенёв,_Михаил_Юрьевич" title = "Горшок">
@@ -56,7 +57,6 @@ height = "702" width = "673"> </a></p></li>
 		</map></p>
 		<p><img alt="Картинка" src = "https://bygaga.com.ua/uploads/posts/1339881009_kartinki_privet_6257-9.jpeg" height = "650" width = "480" usemap = "#click"></p>
 	</li>
-
 	<li> <a href = "./example.html" > Относительная ссылка на страницу в текущем каталоге</a> </li>
 	<li> <a href = "./about/example.html" > Относительная ссылка на страницу в каталоге about </a> </li>
 	<li> <a href = "../example.html" > Относительная ссылка на страницу в каталоге уровнем выше текущего </a> </li>
@@ -64,31 +64,65 @@ height = "702" width = "673"> </a></p></li>
 	<li> <a href = "/" > Сокращенная ссылка на главную страницу </a> </li>
 	<li> <a href = "/example.html" > Сокращенная ссылка на внутреннюю страницу </a> </li>
     </ol>
+    </div>
 
-     <strong>Форма</strong>
-	<form action="/"
-      method="POST">
+    <div class="div2">
+      <table border="1" bordercolor=black cellpadding="5" ><a id="Таблица"></a>
+	<tr>
+		<th>Колонка 1</th>
+		<th>Колонка 2</th>
+		<th>Колонка 3</th>
+		<th>Колонка 4</th>
+	</tr>
+	<tr class="nechet">
+		<td colspan="4">объединенная ячейка(по горизонтали)</td>
+	</tr>
+	<tr class="chet">
+		<td>Ячейка 21</td>
+		<td>Ячейка 22</td>
+		<td>Ячейка 23</td>
+		<td>Ячейка 24</td>
+	</tr>
+	<tr class="nechet">
+		<td rowspan="2">объединенная ячейка(по вертикали)</td>
+		<td>Ячейка 32</td>
+		<td>Ячейка 33</td>
+		<td>Ячейка 34</td>
+	</tr>
+	<tr class="chet">
+		<td>Ячейка 42</td>
+		<td>Ячейка 43</td>
+		<td>Ячейка 44</td>
+	</tr>
+	<tr class="nechet">
+		<td>Ячейка 51</td>
+		<td>Ячейка 52</td>
+		<td>Ячейка 53</td>
+		<td>Ячейка 54</td>
+	</tr>
+    </table>
+   </div>
 
-      <label>
+    <div class="div1">
+    <strong>Форма</strong>
+    <form action="/"method="POST">
+      <label><a id="Форма"></a>
         Имя:<br />
         <input name="field-name-1"
           value="начальное значение" />
       </label><br />
-	
       <label>
         Email:<br />
         <input name="field-email"
           value="test@example.com"
           type="email" />
       </label><br />
-
       <label>
         Дата рождения:<br />
         <input name="field-date"
           value="2019-08-13"
           type="date" />
       </label><br />  
-
       Ваш пол:<br />
       <label><input type="radio" checked="checked"
         name="radio-group-1" value="Значение1" />
@@ -123,15 +157,19 @@ height = "702" width = "673"> </a></p></li>
         Биография:<br />
         <textarea name="field-name-2">Введите текст</textarea>
       </label><br />
-
-     <br /><label><input type="checkbox" checked="checked"
-        name="check-1" />
-        С контрактом ознакомлен</label><br />
-
+     <br /><label><input type="checkbox" checked="checked"name="check-1" />С контрактом ознакомлен</label><br />
       <input type="submit" value="Отправить" />
-<p id="Форма"></p>
     </form>
+    </div>
+   </main>
 
+   <footer>
+    <div class="div3">
+      <p><span> (c) Стешенко Иван 2021</span></p>
+    </div>
+   </footer>
+
+	
   </body>
 
 </html> 
