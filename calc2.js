@@ -1,14 +1,13 @@
 function click1() {
-    let price = Number(document.getElementsByName("price").value);
-    let c = Number(document.getElementsByName("count").value);
+    let price = document.getElementsByName("price");
+    let c = document.getElementsByName("count");
     let r = document.getElementById("result");
-    if (Number.isNaN(r)) {
+    let s=price[0].value*c[0].value;
+    if (s!==s) {
         r.innerHTML = "Ошибка";
     }
     else {
-        r.innerHTML =  price*c;
+        r.innerHTML =  s;
     }
-    document.getElementById("price").value = "";
-    document.getElementById("count").value = "";
     return false;
   }
