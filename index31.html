@@ -1,205 +1,151 @@
 <!DOCTYPE html>
 <html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовый сайт</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: #9399FF;
+        }
+        header{
+            height: 120px;
+            background-color:#A1E6E3;
+        }
+        #img_header{
+            height:100px;
+            width:200px;
+        }
+        #div_headertittle{
+            background-color:#D7FFFD;
+        }
+        footer{
+            height: 80px;
+            background-color:#F7D695;
+        }
+        footer.div{
+            background-color:#EE8972;
+        }
+        #navbar_head{
+            order: 1;
+            background-color:#FF80B0;
+        }
+        #Гиперссылки{
+            order: 2;
+            background-color:#FFC7C7;
+        }
+        #Таблица{
+            order: 4;
+            background-color:#FF80B0;
+            height: 200px;
+        }
+        table{
+            border: 1px solid black;
+        }
+        table td,table th{
+            border: 1px solid black
+        }
+        .chet{
+            background-color:#4CD3C2
+        }
+        .nechet{
+            background-color:#0A97B0
+        }
+        #Myform{
+            order: 3;
+            background-color:#FFC7C7;
+        }
+    @media screen and (min-width: 800px) {
+        body{
+            background-color: #9399FF;
+        }
+        header{
+            height: 120px;
+            background-color:#A1E6E3;
+        }
+        #img_header{
+            height:100px;
+            width:200px;
+        }
+        #div_headertittle{
+            background-color:#D7FFFD;
 
-	<head>
-        <title>Тестовый сайт 3</title>
-		<!DOCTYPE html>
-<html lang="ru">
+        }
+        footer{
+            height: 80px;
+            background-color:#F7D695;
+        }
+        footer.div{
+            background-color:#EE8972;
+        }
+        #navbar_head{
+            order: 1;
+            background-color:#FF80B0;
+        }
+        #Гиперссылки{
+            order: 2;
+            background-color:#FFC7C7;
+        }
+        #Таблица{
+            order: 3;
+            background-color:#FF80B0;
+            height: 200px;
+        }
+        table{
+            border: 1px solid black;
+        }
+        table td,table th{
+            border: 1px solid black
+        }
+        .chet{
+            background-color:#4CD3C2
+        }
+        .nechet{
+            background-color:#0A97B0
+        }
+        #Myform{
+            order: 4;
+            background-color:#FFC7C7;
+        }
+    }
+    </style>
+</head>
 
-	<head>
-        <title>Тестовый сайт 3</title>
-		<style>
-		@media screen and (max-width: 900px){
-			body{
-				display:flex;
-				flex-direction: column;
-				align-items: centre;
-				background-color: #9399FF
-				margin: 0; 
-			}
-			#div_header{
-			}
-			header{
-				width: 100%;
-   				background-color:#A1E6E3; 
-    			padding: 10px; 
-    			height: 100px
-			}
-			#img_header{
-    			float:left; 
-    			margin:10px; 
-    			width:200px; 
-    			height:100px
-			}
-			#div_header div{
-				background-color:#D7FFFD; 
-    			padding:10px
-				width: 100%;
-			}
-			.div1{
-				border: 3px;
-  				background-color:#9399FF; 
-   				width: 100%;
-			}
-			.div2{
-				border: 3px;
-    			width: 100%;
-    			background-color:#9399FF; 
-    			margin: 0 auto; 
-    			margin-top:20px; 
-    			padding:10px
-			}
-			.div3{
-				border: 3px;
-   				background-color:#9399FF; 
-				width: 100%;
-    			margin: 0 auto; 
-    			margin-top:20px; 
-    			padding:10px
-			}
-			table {
-    			margin:auto;
-    			border: 1px solid black
-			}
-			table td,table th{
-    			border: 1px solid black
-			}
-			.chet{
-   				background-color:#4CD3C2
-			}
-			.nechet{
-    			background-color:#0A97B0
-			}
-			nav{
-   				background-color:#9399FF; 
-   				margin: 0 auto; 
-    			margin-top:20px; 
-    			padding:10px
-			}
-			nav.nav2{
-    			background-color:#9399FF; 
-    			margin-bottom:20px
-			}
-			footer{
-	
-          width:100%; 
-    			background-color:#F7D695; 
-    			margin:10px 0 0 0; 
-    			padding:50px
-			}
-			div.div4{
-    			width:165px;
-    			background-color:#EE8972
-			}
-		}
-		@media screen and (min-width: 900px) {
-			header{
-   				background-color:#A1E6E3; 
-    			padding: 10px; 
-    			height: 100px
-			}
-			#img_header{
-    			float:left; 
-    			margin:10px; 
-    			width:200px; 
-    			height:100px
-			}
-			#div_headertittle{
-				background-color:#D7FFFD; 
-    			padding:10px
-			}
-			body{
-    			margin: 0; 
-    			background-color: #9399FF
-			}
-			main{
-    			display: inline-flex;
-    			flex-direction:column;
-    			justify-content: centre;
-    			align-items: centre;
-    			max-width:960px;
-			}
-			.div1{
-				border: 3px;
-  				background-color:#9399FF; 
-   				margin: 0 auto; 
-    			margin-top:20px; 
-    			padding:10px
-			}
-			.div2{
-				border: 3px;
-    			width:960px;
-    			background-color:#9399FF; 
-    			margin: 0 auto; 
-    			margin-top:20px; 
-    			padding:10px
-			}
-			.div3{
-				border: 3px;
-   				background-color:#9399FF; 
-    			margin: 0 auto; 
-    			margin-top:20px; 
-    			padding:10px
-			}
-			table {
-    			margin:auto;
-    			border: 1px solid black
-			}
-			table td,table th{
-    			border: 1px solid black
-			}
-			.chet{
-   				background-color:#4CD3C2
-			}
-			.nechet{
-    			background-color:#0A97B0
-			}
-			nav{
-   				background-color:#9399FF; 
-   				margin: 0 auto; 
-    			margin-top:20px; 
-    			padding:10px
-			}
-			nav.nav2{
-    		background-color:#9399FF; 
-    		margin-bottom:20px
-			}
-			footer{
-    			width:100%; 
-    			background-color:#F7D695; 
-    			margin:10px 0 0 0; 
-    			padding:50px
-			}
-			div.div4{
-    			width:165px;
-    			background-color:#EE8972
-			}
-		}
-		</style>
+<body>
+    <header class="container-fluid">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-2 me-1 mt-2">
+                    <img id="img_header" src="https://c.tenor.com/S9BVMZq1Vq8AAAAC/duck-duck-dance.gif" alt="Описание картинки" />
+                </div>
+                <div class="container column col-9 m-2 ">
+                    <div id="div_headertittle" class="col-12 align-text-start">Тестовый сайт 3</div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-
-	</head>
-	<body>
-		<header>
-			<div >
-				<img id="img_header" src="https://c.tenor.com/S9BVMZq1Vq8AAAAC/duck-duck-dance.gif" alt="Описание картинки" /> 
-				<div id="div_headertittle">Тестовый сайт 3</div>
-			</div>
-		</header>
-
-        <main>
-			<div id="div_nav">
-				<nav>Меню сайта:
-			   <ul>
-			   <li><a href="#Гиперссылки">Список гиперссылок</a></li>
-			   <li><a href="#Таблица">Таблица</a></li>
-			   <li><a href="#Форма">Форма</a></li>
-			   </ul>
-				</nav>
-			</div>
-
-			<div class="div1">
-				<p id="Нумерованный_список"></p><a id="Гиперссылки"></a>
+    <main class="container d-flex col-8 justify-content-center">
+        <div class="row col my-4 " id="navbar_head"> 
+            <strong>Меню сайта:</strong>
+            <nav class="navbar"> 
+                <div class="container-fluid">
+                 <ul>
+                  <li><a class="navbar-text" href="#Гиперссылки">Список гиперссылок</a></li>
+                  <li><a class="navbar-text" href="#Таблица">Таблица</a></li>
+                  <li><a class="navbar-text" href="#Myform">Форма</a></li>
+                 </ul>
+                </div>
+            </nav> 
+        </div>
+       
+        <div class="row col my-4 " id="Гиперссылки">
+            <div>
 				<h2>Нумерованный список</h2>
 				<ol>
 				   <li><a href="http://www.kubsu.ru/" target="_blank">Абсолютная гиперссылка на сайт КубГУ</a></li>
@@ -212,8 +158,8 @@
 				   <li>Список ссылок основной навигации сайта:
 				<nav class="nav2">
 				 <ul>
-					<li><a href="#Нумерованный_список">Нумерованный список</a></li>
-					<li><a href="#Форма">Форма</a></li>
+					<li><a href="#Гиперссылки">Нумерованный список</a></li>
+					<li><a href="#Myform">Форма</a></li>
 				 </ul>
 				</nav></li>
 				   <li><a>Ссылка без href</a></li>
@@ -237,68 +183,70 @@
 				<li> <a href = "/" > Сокращенная ссылка на главную страницу </a> </li>
 				<li> <a href = "/example.html" > Сокращенная ссылка на внутреннюю страницу </a> </li>
 				</ol>
-			</div>
-			
-			<div class="div2">
-				<a id="Таблица"></a>
-				<table>
-			   <tr>
-				   <th>Колонка 1</th>
-				   <th>Колонка 2</th>
-				   <th>Колонка 3</th>
-				   <th>Колонка 4</th>
-			   </tr>
-			   <tr class="nechet">
-				   <td colspan="4">объединенная ячейка(по горизонтали)</td>
-			   </tr>
-			   <tr class="chet">
-				   <td>Ячейка 21</td>
-				   <td>Ячейка 22</td>
-				   <td>Ячейка 23</td>
-				   <td>Ячейка 24</td>
-			   </tr>
-			   <tr class="nechet">
-				   <td rowspan="2">объединенная ячейка(по вертикали)</td>
-				   <td>Ячейка 32</td>
-				   <td>Ячейка 33</td>
-				   <td>Ячейка 34</td>
-			   </tr>
-			   <tr class="chet">
-				   <td>Ячейка 42</td>
-				   <td>Ячейка 43</td>
-				   <td>Ячейка 44</td>
-			   </tr>
-			   <tr class="nechet">
-				   <td>Ячейка 51</td>
-				   <td>Ячейка 52</td>
-				   <td>Ячейка 53</td>
-				   <td>Ячейка 54</td>
-			   </tr>
-			   </table>
-			</div>
-			
-			<div class="div3">
-				<strong>Форма</strong>
+            </div>
+        </div>
+
+        <div class="row col py-4" id="Таблица">
+            <div class="ms-5">
+            <table class="ms-5">
+           <tr>
+               <th>Колонка 1</th>
+               <th>Колонка 2</th>
+               <th>Колонка 3</th>
+               <th>Колонка 4</th>
+           </tr>
+           <tr class="nechet">
+               <td colspan="4">объединенная ячейка(по горизонтали)</td>
+           </tr>
+           <tr class="chet">
+               <td>Ячейка 21</td>
+               <td>Ячейка 22</td>
+               <td>Ячейка 23</td>
+               <td>Ячейка 24</td>
+           </tr>
+           <tr class="nechet">
+               <td rowspan="2">объединенная ячейка(по вертикали)</td>
+               <td>Ячейка 32</td>
+               <td>Ячейка 33</td>
+               <td>Ячейка 34</td>
+           </tr>
+           <tr class="chet">
+               <td>Ячейка 42</td>
+               <td>Ячейка 43</td>
+               <td>Ячейка 44</td>
+           </tr>
+           <tr class="nechet">
+               <td>Ячейка 51</td>
+               <td>Ячейка 52</td>
+               <td>Ячейка 53</td>
+               <td>Ячейка 54</td>
+           </tr>
+           </table>
+           </div>
+        </div>
+        
+        <div class="row col my-4 "  id="Myform">
+            <strong>Форма</strong>
 				<form action="/" method="POST">
 				  <label><a id="Форма"></a>
-					Имя:<br />
+					<em>Имя:</em><br />
 					<input name="field-name-1"
 					  value="начальное значение" />
 				  </label><br />
 				  <label>
-					Email:<br />
+					<em>Email:</em><br />
 					<input name="field-email"
 					  value="test@example.com"
 					  type="email" />
 				  </label><br />
 				  <label>
-					Дата рождения:<br />
+					<em>Дата рождения:</em><br />
 					<input name="field-date"
 					  value="2019-08-13"
 					  type="date" />
 				  </label><br />  
 
-				  Ваш пол:<br />
+				  <em>Ваш пол:</em><br />
 				  <label><input type="radio" checked="checked"
 					name="radio-group-1" value="Значение1" />
 					Мужской</label>
@@ -308,19 +256,25 @@
 				  <label><input type="radio"
 					name="radio-group-1" value="Значение2" />
 					Боевой вертолет</label><br />
-
-				  Колличество ваших конечностей:<br />
+					
+				  <em>Колличество ваших конечностей:</em><br />
 				  <label><input type="radio" checked="checked"
-					name="radio-group-1" value="Значение1" />
+					name="radio-group-2" value="Значение1" />
 					Нет</label>
 				  <label><input type="radio"
-					name="radio-group-1" value="Значение2" />
+					name="radio-group-2" value="Значение2" />
 					Менее 2</label><br />
 				  <label><input type="radio"
-					name="radio-group-1" value="Значение2" />
+					name="radio-group-2" value="Значение2" />
 					Более 2</label><br />
+
+					<label>
+						<em>Биография:</em><br />
+						<textarea name="field-name-2">Введите текст</textarea>
+					</label><br />
+
 				  <label>
-					Сверхспособности:
+					<em>Сверхспособности:</em>
 					<br />
 					<select name="field-name-4[]"
 					  multiple="multiple">
@@ -329,22 +283,20 @@
 					  <option value="Значение3" selected="selected">Левитаия</option>
 					</select>
 				  </label><br />
-				  <label>
-					Биография:<br />
-					<textarea name="field-name-2">Введите текст</textarea>
-				  </label><br />
-				 <br /><label><input type="checkbox" checked="checked" name="check-1" />С контрактом ознакомлен</label><br />
-				  <input type="submit" value="Отправить" />
+				  
+				 <br /><label><input type="checkbox" checked="checked" name="check-1" />С контрактом ознакомлен</label>
+                 <br /><input type="submit" value="Отправить" formaction="http://www.kubsu.ru/" />
 				</form>
-				</div>
+        </div>
+    </main>
 
-        </main>
+    <footer class="container_fluid" >
+        <div class="container row">
+            <div class="col-3 mt-4">
+               <p><span> (c) Стешенко Иван 2021</span></p>
+            </div>
+        </div>
+    </footer>
 
-	    <footer>
-			<div class="div4">
-				<p><span> (c) Стешенко Иван 2021</span></p>
-			</div>
-	    </footer>
-
-    </body>
+</body>
 </html>
